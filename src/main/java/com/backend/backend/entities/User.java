@@ -1,7 +1,6 @@
 package com.backend.backend.entities;
 
 import java.util.Collection;
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.security.core.GrantedAuthority;

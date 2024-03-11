@@ -75,6 +75,7 @@ public class AuthServiceImpl implements AuthService{
      * @return ApiResponse indicating the result of the operation
      * 
      */
+    @SuppressWarnings("null")
     @Override
     public ApiResponse register(UserDTO userDTO) {
         if (userDTO == null) return new ApiResponse("User cannot be null", false, null, HttpStatus.BAD_REQUEST);

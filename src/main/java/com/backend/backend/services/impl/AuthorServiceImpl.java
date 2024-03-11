@@ -193,6 +193,7 @@ public class AuthorServiceImpl implements AuthorService{
      * @return ApiResponse object with the result of the operation
      * 
      */
+    @SuppressWarnings("null")
     @Override
     public ApiResponse deleteAuthor(Integer id) {
         if (id == null) return new ApiResponse("Author ID cannot be null", false, null, HttpStatus.BAD_REQUEST);

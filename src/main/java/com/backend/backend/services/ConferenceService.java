@@ -1,7 +1,5 @@
 package com.backend.backend.services;
 
-import java.util.List;
-
 import com.backend.backend.payloads.ConferenceDTO;
 import com.backend.backend.utils.ApiResponse;
 
